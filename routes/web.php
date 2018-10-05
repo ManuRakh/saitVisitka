@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('mainPage');
+});
+Route::get('news', function () {
+echo 'huy' ;   
+
 });

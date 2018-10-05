@@ -1,0 +1,266 @@
+* {
+    font-family: "San Francisco", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #333;
+}
+
+.date
+{
+    color: #888;
+}
+
+.news-title
+{
+    /*color: #003569;*/
+    text-decoration: none;
+}
+.news-title:hover
+{
+    color: #2a5885;
+    text-decoration: none;
+}
+
+
+.tags
+{
+    font-weight: 500;
+    /*color: #003569;*/
+    color: #2a5885;
+}
+
+.svg_logo
+{
+    height: 30px;
+    margin-right: 25px;
+}
+
+.article-image
+{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.more
+{
+    font-weight: 600;
+    color: #2a5885;
+}
+
+.footer-text
+{
+    font-size: .8em;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.mypost
+{
+
+    border: 1px solid #e6e6e6;/*rgba(240, 240, 240, 0.9);*/
+    border-radius: .1em;
+    padding: 0 1.5em;
+    margin-bottom: 2em;
+    background: #fff;
+}
+.mypostbidlo
+{
+    border: 1px solid #e6e6e6;/*rgba(240, 240, 240, 0.9);*/
+    border-radius: .1em;
+    padding: 0 0.6em;
+    margin-bottom: 2em;
+    background: #fff;
+    height: 520px;
+}
+.swgbidlo{
+    width: 100%;
+    position: absolute;
+    bottom: -12px;
+}
+
+.subutton
+{   
+    margin: 10px 5px 20px 5px; 
+    padding: 0 24px; 
+    background: 0 0; 
+    background-color: #3897f0;
+    border-color: #3897f0; 
+    color: #fff; 
+    border-radius: .1em;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.email
+{
+    margin: 10px 5px; 
+    border-radius: .1em;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: 600;
+    line-height: 26px;
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 0 1 355px;
+    font-size: 1em;
+    height: 32px;
+    padding: 0 10px;
+    background: 0 0;
+    border: 1px solid #efefef;
+}
+
+.inform-me
+{
+    border-radius: 0.1em;
+    border: 0 none;
+    width: 90%;
+    height: 40px;
+    padding-left: 10px;
+    background: #dcddd8;
+    font-weight: 600;
+    line-height: 26px;
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 0 1 355px;
+    font-size: 1em;
+}
+
+.commenttext
+{
+    border-radius:.1em; width: 100%; height: 8em; max-width:100%;
+    margin: 10px 5px; 
+    border-radius: .1em;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: 600;
+    line-height: 26px;
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 0 1 355px;
+    font-size: 1em;
+    padding: 0 10px;
+    background: 0 0;
+    border: 1px solid #efefef;
+}
+
+.more-button
+{
+    margin: 10px 5px 20px 5px; 
+    padding: 0 24px; 
+    background: 0 0; 
+    border-color: #dbdbdb;
+    color: #262626; 
+    border-radius: .1em;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 40px;
+}
+
+.more-button:hover {
+    border-color: #262626;
+    background-color: #262626;
+    color: #dbdbdb; 
+}
+
+.goTop a
+{
+position:fixed;
+    width: 100px;
+	height: 100%;
+
+bottom:0;
+
+}
+#blfix{
+    display:none;
+    position:fixed;
+    background-color:rgba(218, 215, 212, 0.3);
+    width: 100px;
+	height:100%;
+    padding: 20px;
+    top: 0;
+    z-index: 1;
+}
+#blfix2{
+    display:none;
+    position:fixed;
+    bottom: 0;
+        z-index: 1;
+
+}
+
+
+/* скрываем чекбоксы и блоки с содержанием */
+.hide {
+    display: none; 
+}
+.hide + label ~ div{
+    display: none;
+}
+/* оформляем текст label */
+.hide + label {
+    border-bottom: 1px dotted #333;
+    padding: 0;
+    color: #333;
+    cursor: pointer;
+    display: inline-block; 
+}
+/* вид текста label при активном переключателе */
+.hide:checked + label {
+
+    display: none;
+    border-bottom: 0;
+}
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide:checked + label + div {
+    display: block; 
+}
+.swiper{
+    height:600px;
+    margin-top: 1.4em;
+    margin-bottom: 1.4em;   
+}
+.li img{
+    width: 40px;
+    height: 40px;
+}
+
+.nav>li>a:hover {
+    color: #2a5885;
+    text-decoration: underline;
+}
+
+.sweeper-nav {
+    height: 510px;
+    margin-top: 1.4em;
+    margin-bottom: 1.4em;
+}
+.about-info {
+    display: flex;
+}
+
+.about-pic {
+    margin: 1.5em 1.5em 1.5em 0;
+}
+
+.col-md-12 {
+    margin-top: 1.5em;
+}

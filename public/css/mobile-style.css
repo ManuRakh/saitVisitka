@@ -1,0 +1,14 @@
+.sweeper-nav {
+    height: 180px;
+    margin-top: 1.4em;
+    margin-bottom: 1.4em;
+}
+
+.about-info {
+    flex-direction: column;
+    padding-bottom: 1.5em; 
+}
+
+.about-pic {
+    margin: 1.5em 0;
+}
